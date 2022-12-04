@@ -1,1 +1,1 @@
-# vscode theme
+# vscode-happy-theme

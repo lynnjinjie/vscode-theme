@@ -1,0 +1,32 @@
+{
+  "name": "vscode-happy-theme",
+  "displayName": "vscode-happy-theme",
+  "description": "a person happy code theme",
+  "version": "0.0.1",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lynnjinjie/vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "happy"
+  ],
+  "publisher": "lynnjinjie",
+  "contributes": {
+    "themes": [
+      {
+        "label": "happy dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/happy-dark-color-theme.json"
+      }
+    ]
+  }
+}
