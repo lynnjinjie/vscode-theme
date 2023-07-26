@@ -2,7 +2,7 @@
   "name": "vscode-happy-theme",
   "displayName": "vscode-happy-theme",
   "description": "a person happy code theme",
-  "version": "0.0.4",
+  "version": "0.1.2",
   "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
@@ -26,6 +26,11 @@
         "label": "Happy Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/happy-dark-color-theme.json"
+      },
+      {
+        "label": "Happy Light",
+        "uiTheme": "vs",
+        "path": "./themes/happy-light-color-theme.json"
       }
     ]
   }
