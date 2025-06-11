@@ -1,8 +1,8 @@
 {
   "name": "vscode-happy-theme",
   "displayName": "vscode-happy-theme",
-  "description": "a person happy code theme",
-  "version": "0.1.3",
+  "description": "Happy theme makes you happy coding",
+  "version": "0.2.0",
   "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
@@ -17,7 +17,11 @@
   ],
   "keywords": [
     "theme",
-    "happy"
+    "dark theme",
+    "light theme",
+    "happy",
+    "eye-care",
+    "color-theme"
   ],
   "publisher": "lynnjinjie",
   "contributes": {
@@ -31,6 +35,16 @@
         "label": "Happy Light",
         "uiTheme": "vs",
         "path": "./themes/happy-light-color-theme.json"
+      },
+      {
+        "label": "Eye Care Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eye-care-dark-color-theme.json"
+      },
+      {
+        "label": "Eye Care Light",
+        "uiTheme": "vs",
+        "path": "./themes/eye-care-light-color-theme.json"
       }
     ]
   }
